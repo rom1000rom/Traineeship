@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Edit banner</title>
+
+    <!--Подключаем библиотеку jquery-->
+    <script type="text/javascript"  src="../static/js/jquery-3.4.1.min.js"></script>
+
+    <!--Подключаем внешний файл  со скриптами-->
+    <script type="text/javascript" src="../static/js/edit.js"></script>
+    <!--Подключаем внешний файл стилей-->
+    <link href="../static/css/registration.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+<body>
+
+<form id="addPan">
+    <fieldset>
+        <legend>Характеристики баннера</legend>
+        ImgSrc:    <br /><input type='text' id='imgSrc' /><br />
+        Width:     <br /><input type='number' id='width' /><br />
+        Height:    <br /><input type='number' id='height' /><br />
+        TargetUrl: <br /><input type='text' id='targetUrl' /><br />
+        LangId:    <br /><input type='text' id='langId' />
+    </fieldset>
+</form> <br/>
+
+<div id="bodyBottomPan">
+    <div id="footerPan">
+        <ul>
+            <li><a id="editBut" >Редактировать</a>|</li>
+            <li><a href="/">Главная</a></li>
+        </ul>
+    </div>
+</div>
+
+<div onclick="valertclose()" class="alerts"></div>
+<script>
+    function valert(alert){$(".alerts").html(alert).show();}
+    function valertclose(){$(".alerts").html("").hide();}
+</script>
+
+</body>
+</html>

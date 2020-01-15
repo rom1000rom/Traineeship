@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>History operation</title>
+
+    <!--Подключаем библиотеку jquery-->
+    <script type="text/javascript"  src="../static/js/jquery-3.4.1.min.js"></script>
+
+    <!--Подключаем внешний файл  со скриптами-->
+    <script type="text/javascript" src="../static/js/history.js"></script>
+    <!--Подключаем внешний файл стилей-->
+    <link href="../static/css/registration.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="bodyPan">
+    <h2>Операции над баннерами</h2><br/><br/>
+    <div id="historyPan">
+            <table border='1' id="tabHistory" >
+                <tr>
+                    <th><div style="width: 30px;">Id</div></th>
+                    <th><div style="width: 60px;">BannerId</div></th>
+                    <th><div style="width: 50px;">Admin</div></th>
+                    <th><div style="width: 80px;">TypeChange</div></th>
+                    <th><div style="width: 250px;">DescriptionChange</div></th>
+                    <th><div style="width: 80px;">DateChange</div></th>
+                </tr>
+            </table> <br/><br/>
+    </div>
+</div>
+
+<div id="addPan">
+    <form>
+        <fieldset>
+            <legend>Фильтры:</legend>
+            BannerId:<br /><input type='number' id='bannerId' /><br />
+            AdminName:<br /><input type='text' id='adminName' />
+        </fieldset>
+    </form>
+</div>
+
+<div id="bodyBottomPan">
+    <div id="footerPan">
+        <ul>
+            <li><a id="applyBut">Применить</a>|</li>
+            <li><a id="resetBut">Сбросить</a>|</li>
+            <li><a href="/">Главная</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

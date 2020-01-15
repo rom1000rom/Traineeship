@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Registration</title>
+
+    <!--Подключаем библиотеку jquery-->
+    <script type="text/javascript"  src="../static/js/jquery-3.4.1.min.js"></script>
+
+    <!--Подключаем внешний файл стилей-->
+    <link href="../static/css/registration.css" rel="stylesheet" type="text/css" />
+    <!--Подключаем внешний файл со скриптами-->
+    <script type="text/javascript" src="../static/js/registration.js"></script>
+</head>
+<body>
+
+<div id="addPan">
+    <form>
+        <fieldset>
+            <legend>Регистрация</legend>
+            Логин:    <br /><input name="username" type='text' id ="login" /><br />
+            Пароль:   <br /><input name="password" type='password' id = "password" />
+        </fieldset>
+    </form>
+</div>
+
+<div id="bodyBottomPan">
+    <div id="footerPan">
+        <ul>
+            <li><a id="regBut">Зарегистрировать</a>|</li>
+            <li><a href="/">Главная</a></li>
+        </ul>
+    </div>
+</div>
+
+<div onclick="valertclose()" class="alerts"></div>
+<script>
+    function valert(alert){$(".alerts").html(alert).show();}
+    function valertclose(){$(".alerts").html("").hide();}
+</script>
+
+</body>
+</html>

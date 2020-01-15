@@ -1,0 +1,71 @@
+/* CSS Document */
+body{padding:0px; margin:18px 0 0; background:#590000; color:#CD7A7A; font:12px/14px Arial, Helvetica, sans-serif;}
+div, p, ul, h2, h3, h4, h5, form, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+/*----TOP PANEL----*/
+#topPan{width:778px; height:113px; position:relative; margin:0 auto; background:url('/static/images/toppan-bg.jpg') 0 0 repeat-x;}
+#topPan img.logo{width:219px; height:58px; position:absolute; top:13px; left:104px;}
+#topPan ul{width:586px; height:30px; position:absolute; top:83px; left:146px;}
+#topPan ul li{width:111px; height:30px; float:left; cursor: pointer; }
+#topPan ul li a{width:111px; height:30px; display:block; background:url('/static/images/menu-bg.gif') 0 0 repeat-x #2F0000; color:#fff; font:15px/30px "Trebuchet MS", Arial, Helvetica, sans-serif; text-align:center; text-decoration:none;}
+#topPan ul li a:hover{background:#590000; color:#fff; text-decoration:none;}
+#topPan ul li.home{width:81px; height:30px; display:block; background:#590000; color:#fff; font:12px/30px "Trebuchet MS", Arial, Helvetica, sans-serif; font-weight:bold; text-align:center; text-decoration:none;}
+
+#topimagePan{width:209px; height:83px; position:absolute; top:0px; right:0px; background:url('/static/images/image1.jpg') 0 0 no-repeat;}
+/*----/TOP PANEL----*/
+
+/*----BODY PANEL----*/
+#bodyPan{width:778px; position:relative; margin:0 auto;}
+
+/*----Left Panel----*/
+#leftPan{ padding:18px 26px 26px 0;}
+#leftPan h2{width:220px; height:26px; background:#590000; color:#fff; font:26px/26px Georgia, "Times New Roman", Times, serif;}
+#leftPan h2 span{background:#590000; color:#F10000;}
+
+#tabPan{height:400px; overflow: auto; font-size:13px; opacity: .7;}
+#tabPan th{height:28px; padding: 0 3px 0 3px;}
+#tabPan table{background:#590000; color:#fff; text-align: center;}
+#tabPan tr{line-height: 20px; word-break: break-all;}
+
+/*---- Right Panel----*/
+#rightPan{width:209px; padding:42px 0 0; margin:0 0 0 20px;}
+#rightPan form.form1{width:209px; height:148px; background:url('/static/images/form1-bg.gif') 0 0 no-repeat #590000; color:#fff;}
+#rightPan form.form1 h2{width:189px; height:36px; background:url('/static/images/member-bg.gif') 0 0 no-repeat; padding:0 0 0 20px; font:20px/36px Georgia, "Times New Roman", Times, serif; margin:0 0 8px 0;}
+#rightPan form.form1 label{width:66px; height:18px; float:left; display:block; font-size:13px; line-height:18px; padding:0 0 0 21px; margin:9px 0 0;}
+#rightPan form.form1 label.label1{width:138px; height:16px; float:left; display:block; background:#2F0000; color:#FC0404; font-size:10px; text-transform:uppercase; margin:9px 0 0 2px; padding:0 0 0 19px;}
+#rightPan form.form1 input{width:100px; height:18px; float:left; display:block; padding:0px; margin:9px 0 0;}
+#rightPan form.form1 input.botton{width:70px; height:18px; display:inline;  background:#2F0000; color:#fff; font-size:14px; border:none; padding:0 10px 0 19px; margin:9px 0 0 0; line-height:18px; }
+#rightPan form.form1 input.botton2{width:100px; height:18px;  display:inline; background:#2F0000; color:#fff; font-size:14px; border:none; padding:0 10px 0 19px; margin:9px 0 0 0; line-height:18px; }
+
+#rightPan h3{width:188px; height:33px; background:#3C0101; color:#fff; font:20px Georgia, "Times New Roman", Times, serif; padding:18px 0 0 21px; margin:13px 0 0;}
+#rightPan ul{width:188px; height:129px; padding:0 0 0 21px; background:#3C0101; color:#fff; margin:0 0 13px 0;}
+#rightPan ul li{width:141px; height:18px;}
+#rightPan ul li a{width:141px; height:18px; background:url('/static/images/arrow3.gif') 0 5px no-repeat #3C0101; color:#fff; font-size:12px; text-decoration:none; line-height:18px; padding:0 0 0 15px;}
+#rightPan ul li a:hover{width:141px; height:18px; background:url('/static/images/arrow4.gif') 0 5px no-repeat #3C0101; color:#FFD6D6; text-decoration:none;}
+
+#rightform2Pan{width:209px; position: relative;margin:0 auto;}
+#rightPan form.form2{float:left; width:209px; height:111px; background:url('/static/images/form1-bg.gif') 0 0 no-repeat #2F0000; color:#fff; font-size:12px; }
+#rightPan form.form2 h2{width:189px; height:46px; background:url('/static/images/member-bg.gif') 0 0 no-repeat; padding:0 0 0 20px; font:20px/36px Georgia, "Times New Roman", Times, serif; margin-top:18px;}
+#rightPan form.form2 select{width:41px; height:20px; float:left; display:block; background:#fff; color:#000; font-size:14px; margin:0 0 0 4px;}
+#rightPan form.form2 input.search{width:60px; height:20px; float:right; display:block; background:url('/static/images/botton2.gif') 100% 6px no-repeat #2F0000; border:none; color:#fff; font-size:12px; line-height:20px; padding:0 25px 0 0; position:absolute; top:78px; right:8px;}
+/*----/BODY PANEL----*/
+
+/*----BOTTOM BODY PANEL----*/
+#bodyBottomPan{width:778px; height:40px; color:#CD7A7A; position:relative; margin:0 auto; clear:both; padding:20px 0 0;}
+
+/*----FOOTER PANEL----*/
+#footerPan{width:778px; height:37px; background:#2F0000; color:#fff; position:relative; margin:0 auto; font:12px/16px "Trebuchet MS", Arial, Helvetica, sans-serif; clear:both; padding:26px 0 0;}
+#footerPan ul{width:400px; position:relative; margin:0 auto;}
+#footerPan li{float:left; font-size:15px; cursor: pointer;}
+#footerPan ul li a{padding:0 10px 0; color:#fff; background:#2F0000; text-decoration:none;}
+#footerPan ul li a:hover{text-decoration:underline;}
+
+#addPan{font-size:13px; padding:32px 0 0 0; color:#fff; position:relative; margin:0 auto; width:328px;}
+#addPan input{ position:relative; margin:0 auto;}
+#addPan legend{font-size:15px;}
+
+.alerts{z-index:9999999999999; display:none; background:#fff; color:#2F0000;
+    border: 2px solid grey; bottom:0; height:100px; left:0; margin:auto; padding:20px;
+    position:fixed; right:0; text-align:center; top:0; width:250px;
+    font-size: 18px; font-weight:800;}

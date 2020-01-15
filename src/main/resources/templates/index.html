@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>BannersAdminApp</title>
+
+    <!--Подключаем библиотеку jquery-->
+    <script type="text/javascript"  src="../static/js/jquery-3.4.1.min.js"></script>
+
+    <!--Подключаем внешний файл  со скриптами-->
+        <script type="text/javascript" src="../static/js/index.js"></script>
+        <!--Подключаем внешний файл стилей-->
+        <link href="../static/css/index.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <div id="topPan"/>
+    <div id="topimagePan"><img src="/static/images/blank.gif" alt="" /></div>
+    <ul>
+        <li><a id = "addBut" href="/add">Добавить</a></li>
+        <li><a id="deleteBut">Удалить</a></li>
+        <li><a id="editBut" >Редактировать</a></li>
+    </ul>
+    </div>
+
+    <div id="bodyPan">
+        <div id="leftPan">
+            <h2>Список баннеров</h2><br/><br/>
+            <div id="tabPan">
+                <table border='1' id="tab" >
+                    <tr>
+                        <th><div style="width: 30px;">Id</div></th>
+                        <th><div style="width: 200px;">ImgSrc</div></th>
+                        <th><div style="width: 45px;">Width</div></th>
+                        <th><div style="width: 45px;">Height</div></th>
+                        <th><div style="width: 250px;">TargetUrl</div></th>
+                        <th><div style="width: 45px;">LangId</div></th>
+                        <th><div style="width: 20px;">&nbsp</div></th>
+                    </tr>
+                </table> <br/><br/>
+            </div>
+        </div>
+
+        <div id="rightform2Pan">
+            <form class="form2">
+                <br/><br/>
+                <h2>Сортировать по:</h2><br/>
+                <select id='sort' >
+                    <option value='id' selected="selected">Id</option>
+                    <option value='width'>Width</option>
+                    <option value='height'>Height</option>
+                    <option value='locale'>Locale</option>
+                </select>
+            </form>
+        </div>
+    </div>
+
+    <div id="bodyBottomPan">
+        <div id="footerPan">
+            <ul>
+                <li><a href="/history">История операций</a>|</li>
+                <li><a href="/login">Выйти</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div onclick="valertclose()" class="alerts"></div>
+    <script>
+        function valert(alert){$(".alerts").html(alert).show();}
+        function valertclose(){$(".alerts").html("").hide();}
+    </script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+
+/* CSS Document */
+body{padding:0px; margin:18px 0 0; background:#590000; color:#CD7A7A; font:12px/14px Arial, Helvetica, sans-serif;}
+div, p, ul, h2, h3, h4, h5, form, img{padding:0px; margin:0px;}
+ul{list-style-type:none;}
+
+/*----BODY PANEL----*/
+#bodyPan{width:715px; position:relative; margin:0 auto;}
+#hintPan{color:grey;font-size:20px; padding:0px; margin:0px; padding:0 0 0 35%;}
+
+/*---- Right Panel----*/
+#rightPan{width:209px; padding:42px 0 0; position:relative; margin:0 auto;}
+#rightPan form.form1{width:209px; height:148px; background:url('/static/images/form1-bg.gif') 0 0 no-repeat #590000; color:#fff;}
+#rightPan form.form1 h2{width:189px; height:36px; background:url('/static/images/member-bg.gif') 0 0 no-repeat; padding:0 0 0 20px; font:20px/36px Georgia, "Times New Roman", Times, serif; margin:0 0 8px 0;}
+#rightPan form.form1 label{width:66px; height:18px; float:left; display:block; font-size:13px; line-height:18px; padding:0 0 0 21px; margin:9px 0 0;}
+#rightPan form.form1 label.label1{width:138px; height:16px; float:left; display:block; background:#2F0000; color:#FC0404; font-size:10px; text-transform:uppercase; margin:9px 0 0 2px; padding:0 0 0 19px;}
+#rightPan form.form1 input{width:100px; height:18px; float:left; display:block; padding:0px; margin:9px 0 0;}
+#rightPan form.form1 input.botton{width:70px; cursor: pointer; height:18px; display:inline;  background:#2F0000; color:#fff; font-size:14px; border:none; padding:0 10px 0 19px; margin:9px 0 0 0; line-height:18px; }
+#rightPan form.form1 input.botton2{width:100px; cursor: pointer; height:18px;  display:inline; background:#2F0000; color:#fff; font-size:14px; border:none; padding:0 10px 0 19px; margin:9px 0 0 0; line-height:18px; }
+
+#rightPan h3{width:188px; height:33px; background:#3C0101; color:#fff; font:20px Georgia, "Times New Roman", Times, serif; padding:18px 0 0 21px; margin:13px 0 0;}
+#rightPan ul{width:188px; height:129px; padding:0 0 0 21px; background:#3C0101; color:#fff; margin:0 0 13px 0;}
+#rightPan ul li{width:141px; height:18px;}
+#rightPan ul li a{width:141px; height:18px; background:url('/static/images/arrow3.gif') 0 5px no-repeat #3C0101; color:#fff; font-size:12px; text-decoration:none; line-height:18px; padding:0 0 0 15px;}
+#rightPan ul li a:hover{width:141px; height:18px; background:url('/static/images/arrow4.gif') 0 5px no-repeat #3C0101; color:#FFD6D6; text-decoration:none;}
+
+#rightform2Pan{width:209px; position: relative;margin:0 auto;}
+#rightPan form.form2{float:left; width:209px; height:111px; background:url('/static/images/form1-bg.gif') 0 0 no-repeat #2F0000; color:#fff; font-size:12px; }
+#rightPan form.form2 h2{width:189px; height:46px; background:url('/static/images/member-bg.gif') 0 0 no-repeat; padding:0 0 0 20px; font:20px/36px Georgia, "Times New Roman", Times, serif; margin-top:18px;}
+#rightPan form.form2 select{width:41px; height:20px; float:left; display:block; background:#fff; color:#000; font-size:14px; margin:0 0 0 4px;}
+#rightPan form.form2 input.search{width:60px; height:20px; float:right; display:block; background:url('/static/images/botton2.gif') 100% 6px no-repeat #2F0000; border:none; color:#fff; font-size:12px; line-height:20px; padding:0 25px 0 0; position:absolute; top:78px; right:8px;}
+/*----/BODY PANEL----*/
+
+
+
